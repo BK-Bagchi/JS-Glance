@@ -1,4 +1,4 @@
-//remove duplicate items of an array and get an array with no duplicate
+//26.remove duplicate items of an array and get an array with no duplicate
 const removeDuplicates = (nums)=> {
     for(let i=0; i<nums.length; i++){
         if (!expectedNums.includes(nums[i])) expectedNums.push(nums[i])
